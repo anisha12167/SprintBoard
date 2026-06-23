@@ -145,7 +145,7 @@ const Boards = () => {
       <div className="px-6 pt-10 pb-6 text-slate-200">
         <div className="flex flex-col items-center gap-4 mb-10">
           <h1 className="text-3xl font-semibold tracking-wide">
-            Kanban Board
+            SprintBoard
           </h1>
 
           {/* SEARCH INPUT (TITLE + TAGS) */}
@@ -208,7 +208,7 @@ const Boards = () => {
         >
           <div className="max-w-6xl mx-auto flex gap-6">
             <Column
-              title="Todo"
+              title="Planned Tasks"
               columnKey="todo"
               tasks={getTasks(state.columns.todo)}
               onDelete={handleDeleteTask}
@@ -217,7 +217,7 @@ const Boards = () => {
             />
 
             <Column
-              title="In Progress"
+              title="Active Sprint"
               columnKey="inProgress"
               tasks={getTasks(state.columns.inProgress)}
               onDelete={handleDeleteTask}
@@ -226,7 +226,7 @@ const Boards = () => {
             />
 
             <Column
-              title="Done"
+              title="Completed"
               columnKey="done"
               tasks={getTasks(state.columns.done)}
               onDelete={handleDeleteTask}

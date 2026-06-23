@@ -1,74 +1,35 @@
 # 🚀 SprintBoard
 
-A modern project and task management web application inspired by agile workflow systems like Jira. SprintBoard helps teams organize tasks, manage workflows, and track project progress efficiently through an interactive drag-and-drop board interface.
+SprintBoard is a modern task management web application designed to help users organize tasks, manage workflows, and track project progress using a Kanban-style board interface.
 
----
+## 🌐 Live Demo
+
+[https://sprint-board-theta-coral.vercel.app](sprint-board-fjhcxbbd1-sprintboard.vercel.app)
 
 ## ✨ Features
 
-✅ Create and manage multiple task boards  
-✅ Organize tasks into workflow stages  
-✅ Drag and drop tasks between columns  
-✅ Interactive Kanban-style project management  
-✅ Responsive and clean user interface  
-✅ Smooth workflow visualization for team collaboration  
+- Create project tasks  
+- Drag and drop task management  
+- Organize workflow stages  
+- Search tasks instantly  
+- Interactive Kanban board UI  
+- Responsive design  
 
----
-
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - React.js  
-- JavaScript (ES6+)  
+- JavaScript  
 - Vite  
 - Tailwind CSS  
 - Context API  
-- Drag and Drop Library  
 
----
+## Future Enhancements
 
-## 📸 Project Preview
+- User authentication  
+- Task priority labels  
+- Due date tracking  
+- Team collaboration  
 
-(Add screenshots here after running project)
+## Author
 
-Example:
-
-![Dashboard Screenshot](your-screenshot-link)
-
----
-
-## 📂 Project Structure
-
-```bash
-src/
- ┣ components/
- ┣ contexts/
- ┣ data/
- ┣ App.jsx
- ┣ main.jsx
-public/
-```
-
----
-
-## 🔥 Future Enhancements
-
-- User Authentication (Login / Signup)  
-- Task Priority Labels  
-- Due Date Tracking  
-- Dark Mode  
-- Team Collaboration Features  
-- Cloud Database Integration  
-
----
-
-## 🎯 Purpose
-
-This project was developed to practice modern frontend development concepts and build a scalable task management application with real-world workflow design.
-
----
-
-## 👩‍💻 Author
-
-**Anisha Saini**
-
-GitHub: https://github.com/anisha12167
+Anisha Saini
